@@ -1,0 +1,49 @@
+{
+  "name": "SHINIGAMI-MD",
+  "version": "1.0.0",
+  "description": "MINI WhatsApp Bot with Multi-Number Support",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "baileys-elite": "*",
+    "express": "^4.18.2",
+    "fs-extra": "^11.2.0",
+    "pino": "^8.17.0",
+    "jimp": "^0.22.12",
+    "@octokit/rest": "^20.0.2",
+    "denethdev-ytmp3": "1.0.3",
+    "cheerio": "1.1.0",
+    "ruhend-scraper": "9.0.1",
+    "ytsearch-venom": "latest",
+    "node-fetch": "3.3.2",
+    "file-type": "21.0.0",
+    "axios": "^1.2.5",
+    "mongoose": "latest",
+    "moment-timezone": "^0.6.0",
+    "mongodb": "^5.7.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "@ffmpeg-installer/ffmpeg": "latest",
+    "dotenv": "^16.0.3",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.32.0",
+    "mime-types": "^2.1.35"
+  },
+  "overrides": {
+    "jimp": "^0.22.12"
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "multi-device",
+    "baileys-elite",
+    "shinigami"
+  ],
+  "author": "INCONNU BOY",
+  "license": "MIT"
+}
