@@ -5,13 +5,13 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 
-    MONGO_URI: process.env.MONGO_URI || 'mongodb+srv://nima:nima@nimabot.gkpbhvh.mongodb.net/?appName=snowmd',
+    MONGO_URI: process.env.MONGO_URI || 'mongodb+srv://nima:nima@nimabot.gkpbhvh.mongodb.net/',
     MONGO_DB: process.env.MONGO_DB || 'xjjjuujxyxyxwhdj',
     
     PREFIX: process.env.PREFIX || '.',
     BUTTON: process.env.BUTTON || 'true',
     MAX_RETRIES: process.env.MAX_RETRIES || '5',
-    ADMIN_LIST_PATH: process.env.ADMIN_LIST_PATH || '554488138425',
+    ADMIN_LIST_PATH: process.env.ADMIN_LIST_PATH || '94760743488',
 
     OWNER_REACT:process.env.OWNER_REACT || 'true',
     AUTO_REPLY:process.env.AUTO_REPLY || 'true',
@@ -35,9 +35,9 @@ module.exports = {
 
     BOT_NAME: process.env.BOT_NAME || '*SHINIGAMI MD*',
     OWNER_NAME: process.env.OWNER_NAME || 'INCONNU BOY SENSEI',
-    OWNER_NUMBER: process.env.OWNER_NUMBER || '554488138425',
-    OWNER_NUMBERS: process.env.OWNER_NUMBERS || '554488138425',
-    SUDO_NUMBERS: process.env.SUDO_NUMBERS || '554488138425',
+    OWNER_NUMBER: process.env.OWNER_NUMBER || '94760743488',
+    OWNER_NUMBERS: process.env.OWNER_NUMBERS || '94760743488',
+    SUDO_NUMBERS: process.env.SUDO_NUMBERS || '94760743488',
     BOT_VERSION: process.env.BOT_VERSION || '1.0.0',
     BOT_FOOTER: process.env.FOOTER || '*BEST WHATSAPP BOT*',
 };
